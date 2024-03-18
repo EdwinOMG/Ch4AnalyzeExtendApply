@@ -1,0 +1,148 @@
+/*
+    Student Name: Edwin Morales Jr
+    Date: 3/18/24
+    File Name: styles.css
+*/
+
+body, header, nav, main, footer, img, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #e3eaf8;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    color: #101a2d;
+}
+
+nav {
+    background-color: #1d396d;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #e3eaf8;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    overflow: auto;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+    font-size: 2em;
+}
+
+#image {
+    width: 45%;
+    float: left;
+    padding: 1%;
+}
+
+#group {
+    width: 45%;
+    float: right;
+}
+
+.external {
+    color: #1d396d;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #1d396d;
+    color: #e3eaf8;
+    padding: 1% 0%;
+}
+
+footer a {
+    color: #e3eaf8;
+    text-decoration: none;
+}
+
+.light-blue-bg {
+    background-color: #ADD8E6;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.orange-hex {
+    background-color: orange;
+}
+
+.orange-rgb {
+    background-color: rgb(255, 165, 0); /* Orange */
+}
+
+.orange-hsl {
+    background-color: hsl(39, 100%, 50%); /* Orange */
+}
+
+.purple-hex {
+    background-color: purple;
+}
+
+.purple-rgb {
+    background-color: rgb(128, 0, 128); /* Purple */
+}
+
+.purple-hsl {
+    background-color: hsl(300, 100%, 25%); /* Purple */
+}
+
+.green-hex {
+    background-color: green;
+}
+
+.green-rgb {
+    background-color: rgb(0, 128, 0); /* Green */
+}
+
+.green-hsl {
+    background-color: hsl(120, 100%, 25%); /* Green */
+}
